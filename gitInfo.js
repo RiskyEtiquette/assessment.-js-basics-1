@@ -20,7 +20,7 @@ var gitDefinition = "Git is a system which saves and tracks changes made to any 
 */
 
 //CODE HERE
-var gitHubDefinition = "GitHub is a website and service that hosts and tracks the changes of projects using Git, an open-source version control system. Learn how GitHub works, what it offers, and how it differs from other version control systems and social networking platforms."[^1^][1];
+var gitHubDefinition = "GitHub is a website and service that hosts and tracks the changes of projects using Git, an open-source version control system. Learn how GitHub works, what it offers, and how it differs from other version control systems and social networking platforms.";
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -28,7 +28,7 @@ var gitHubDefinition = "GitHub is a website and service that hosts and tracks th
 */
 
 //CODE HERE
-var gitInitDefinition = "git init is a command that creates a new, empty Git repository or reinitializes an existing one. It creates a hidden directory called .git that stores the metadata, objects, and refs that Git uses and creates as part of the project's history."[^2^][2];
+var gitInitDefinition = "git init is a command that creates a new, empty Git repository or reinitializes an existing one. It creates a hidden directory called .git that stores the metadata, objects, and refs that Git uses and creates as part of the project's history.";
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -37,7 +37,7 @@ var gitInitDefinition = "git init is a command that creates a new, empty Git rep
 */
 
 //CODE HERE
-var gitCloneDefinition = "git clone is a command that creates a copy of an existing repository or branch within a repository. It downloads all the files, directories, history, and refs from the remote repository to the local machine."[^3^][3];
+var gitCloneDefinition = "git clone is a command that creates a copy of an existing repository or branch within a repository. It downloads all the files, directories, history, and refs from the remote repository to the local machine.";
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -46,7 +46,7 @@ var gitCloneDefinition = "git clone is a command that creates a copy of an exist
 */
 
 //CODE HERE
-var gitStatusDefinition = "git status is a command that shows the state of the working directory and the staging area. It displays the paths that have differences between the index file and the current HEAD commit, the paths that have differences between the working tree and the index file, and the paths in the working tree that are not tracked by Git or ignored by .gitignore."[^4^][4];
+var gitStatusDefinition = "git status is a command that shows the state of the working directory and the staging area. It displays the paths that have differences between the index file and the current HEAD commit, the paths that have differences between the working tree and the index file, and the paths in the working tree that are not tracked by Git or ignored by .gitignore.";
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,7 +58,7 @@ var gitStatusDefinition = "git status is a command that shows the state of the w
 */
 
 //CODE HERE
-var gitAddDefinition = "git add is a command that adds new or changed files in the working directory to the staging area, marking them for inclusion in the next commit. It allows you to select the files or segments of code that you want to commit."[^5^][5];
+var gitAddDefinition = "git add is a command that adds new or changed files in the working directory to the staging area, marking them for inclusion in the next commit. It allows you to select the files or segments of code that you want to commit.";
 var gitAddCode = "git add .";
 
 //////////////////PROBLEM 7////////////////////
@@ -71,7 +71,7 @@ var gitAddCode = "git add .";
 */
 
 //CODE HERE
-var gitCommitDefinition = "git commit is a command that records the staged changes as a new snapshot in the project's history. It creates a new commit object with a unique identifier, a message, and metadata such as the author, timestamp, and parent commit."[^6^][6];
+var gitCommitDefinition = "git commit is a command that records the staged changes as a new snapshot in the project's history. It creates a new commit object with a unique identifier, a message, and metadata such as the author, timestamp, and parent commit.";
 var gitCommitCode = "git commit -m \"initial commit\""; // using var keyword and double quotes
 
 
@@ -83,4 +83,4 @@ var gitCommitCode = "git commit -m \"initial commit\""; // using var keyword and
 
 //CODE HERE
 
-var gitPushDefinition = "git push is a command that uploads the local repository content to a remote repository. It transfers the local commits to the remote branch, making them accessible to other collaborators or updating the remote repository with the local changes."[^7^][7];
+var gitPushDefinition = "git push is a command that uploads the local repository content to a remote repository. It transfers the local commits to the remote branch, making them accessible to other collaborators or updating the remote repository with the local changes.";
