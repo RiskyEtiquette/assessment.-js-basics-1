@@ -135,7 +135,17 @@ console.log(days);
 */
 
 // CODE HERE
+function acresToTons(acres) {
+  return acres * 6.5;
+}
 
+let fujiTons = fujiAcres.map(acresToTons);
+let galaTons = galaAcres.map(acresToTons);
+let pinkTons = pinkAcres.map(acresToTons);
+
+console.log(fujiTons);
+console.log(galaTons);
+console.log(pinkTons);
 // let fujiTons =
 // let galaTons =
 // let pinkTons =
@@ -157,6 +167,17 @@ console.log(days);
 */
 
 // CODE HERE
+function add(a, b) {
+  return a + b;
+}
+
+let fujiPounds = fujiTons.reduce(add) * 2000;
+let galaPounds = galaTons.reduce(add) * 2000;
+let pinkPounds = pinkTons.reduce(add) * 2000;
+
+console.log(fujiPounds);
+console.log(galaPounds);
+console.log(pinkPounds);
 
 // let fujiPounds =
 // let galaPounds =
@@ -179,6 +200,13 @@ console.log(days);
 */
 
 // CODE HERE
+let fujiProfit = (fujiPounds * fujiPrice) / 100;
+let galaProfit = (galaPounds * galaPrice) / 100;
+let pinkProfit = (pinkPounds * pinkPrice) / 100;
+
+console.log(fujiProfit);
+console.log(galaProfit);
+console.log(pinkProfit);
 
 // let fujiProfit =
 // let galaProfit =
@@ -195,3 +223,6 @@ console.log(days);
 */
 
 // CODE HERE
+let totalProfit = fujiProfit + galaProfit + pinkProfit;
+
+console.log(totalProfit);
